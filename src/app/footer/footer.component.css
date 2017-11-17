@@ -1,0 +1,75 @@
+footer {
+    background: rgba(245, 245, 245, 0.9);
+    padding: 0 5% 0;
+}
+
+footer > div {
+    display: inline-block;
+}
+
+.language {
+    width: 200px;
+    vertical-align: top;
+    padding: 20px 0;
+}
+
+.language select {
+    width: 120px;
+    height: 25px;
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    color: #757575;
+    background: #FAFAFA;
+}
+
+.menu {
+    width: calc(100% - 204px);
+    vertical-align: top;
+    padding: 20px 0;
+    text-align: right;
+}
+
+.menu li,
+.social-icons li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+}
+.menu li:last-child {
+    padding-right: 0;
+}
+
+.menu li a,
+.social-icons li a {
+    text-decoration: none;
+    color: #757575;
+}
+
+.menu li a:hover {
+    color: #212121;
+}
+
+.copy-right {
+    color: #757575;
+    width: 50%;
+    padding: 20px 0;
+}
+
+.social-icons {
+    width: calc(50% - 4px);
+    padding: 20px 0;
+    text-align: right;
+    font-size: 1.6rem;
+}
+
+.social-icons li:hover {
+    background: #757575;
+    border-radius: 2px;
+    transition: 0.2s;
+}
+
+.social-icons li:hover a {
+    color: #EEEEEE;
+    transition: 0.2s;    
+}

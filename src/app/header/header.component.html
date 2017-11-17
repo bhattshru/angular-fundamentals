@@ -1,0 +1,17 @@
+<div class="header-top-area">
+  <div class="logo">
+    <img src="../assets/images/fifa-logo.png" alt="FIFA" />
+  </div>
+  <div class="header-animation" [@sliderAnimation]="[[sliderState]]">
+    {{sliderTextVar}}
+  </div>
+</div>
+<nav class="menu">
+  <ul>
+    <li><a routerLink="/home">FIFA.com</a></li>
+    <li><a routerLink="/about">About FIFA</a></li>
+    <li><a routerLink="/development">Development</a></li>
+    <li><a routerLink="/governance">Governance</a></li> 
+    <li><a routerLink="/sustainability">Sustainability</a></li>
+  </ul>
+</nav>

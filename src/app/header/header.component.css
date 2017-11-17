@@ -1,0 +1,51 @@
+.menu {
+    text-align: center;
+    background: rgba(245, 245, 245, 0.9);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px 20px;
+    list-style: none;
+}
+
+.menu li:hover {
+    background: #757575;
+}
+
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #757575;
+}
+
+.menu li:hover a {
+    color: #EEEEEE;
+    transition: 0.2s;
+}
+
+.header-top-area .logo img {
+    width: 120px;
+    margin: 5px 5px 0;
+}
+
+.header-top-area .logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-top-area .header-animation {
+    display: inline-block;
+    vertical-align: middle;    
+    font-size: 0.9rem;
+    text-align: right;
+    width: calc(100% - 140px);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #424242;
+}
