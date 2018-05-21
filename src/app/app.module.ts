@@ -1,8 +1,11 @@
+import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
 import { RouteRoutingModule } from './route/route-routing.module';
 import { RouteModule } from './route/route.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ImageZoomModule } from 'angular2-image-zoom';
+
 
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
@@ -12,7 +15,6 @@ import { AboutFifaComponent } from './about-fifa/about-fifa.component';
 import { DevelopmentComponent } from './development/development.component';
 import { GovernanceComponent } from './governance/governance.component';
 import { SustainabilityComponent } from './sustainability/sustainability.component';
-import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awes
     RouteModule,
     RouteRoutingModule,
     BrowserAnimationsModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    ImageZoomModule
   ],
   providers: [],
   bootstrap: [AppComponent]
